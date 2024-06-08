@@ -1,7 +1,6 @@
-
 # NECTA Tanzania Results Database
 
-Welcome to the NECTA Tanzania Results Database project. This repository contains PostgreSQL database dumps of the NECTA exam results. Currently, the available results are for CSEE, with more results to be added in the future.
+Welcome to the NECTA Tanzania Results Database project. This repository contains PostgreSQL database dumps of the NECTA exam results. Currently, the available results are for CSEE from 2019 to 2023, with more results to be added weekly. The goal is to include all results from 2003 to 2023.
 
 ## Getting Started
 
@@ -35,6 +34,8 @@ These instructions will help you set up and run the NECTA results database on yo
    cd csee/2019
    pg_restore -U postgres -d necta_results database.dump
    ```
+
+   Repeat the above step for other years as needed.
 
 ### Database Schema
 
