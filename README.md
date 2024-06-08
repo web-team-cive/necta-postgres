@@ -32,7 +32,7 @@ These instructions will help you set up and run the NECTA results database on yo
 
    ```sh
    cd csee/2019
-   pg_restore -U postgres -d necta_results database.dump
+   pg_restore -U postgres -d necta_results 2019.dump
    ```
 
    Repeat the above step for other years as needed.
